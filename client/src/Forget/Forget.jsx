@@ -4,7 +4,7 @@ import "./Forget.css";
 const Forget = () => {
   return (
     <div>
-      <div className="for-head">Forget Page</div>
+      <div className="for-head">Forget Page by anagha</div>
     </div>
   );
 };
