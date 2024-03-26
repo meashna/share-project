@@ -1,9 +1,10 @@
 import React from "react";
-import SignUp from "./SignUp/SignUp";
-import Login from "./Login/Login";
+import SignUp from "./Pages/SignUp/SignUp";
+import Login from "./Pages/Login/Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Home/Home";
-import Forget from "./Forget/Forget";
+import Home from "./Pages/Home/Home";
+import Forget from "./Pages/Forget/Forget";
+import Cart from "./Pages/Cart/Cart";
 
 const App = () => {
   return (
@@ -12,8 +13,9 @@ const App = () => {
         <Route path="/register" element={<SignUp />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/" element={<Login />}></Route>
-        <Route path="/app" element={<Home />}></Route>
+        <Route path="/home" element={<Home />}></Route>
         <Route path="/forget" element={<Forget />}></Route>
+        <Route path="/cart" element={<Cart />}></Route>
       </Routes>
     </BrowserRouter>
   );
