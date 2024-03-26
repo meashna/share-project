@@ -1,5 +1,88 @@
-.for-head {
-    text-align: center;
-    font-size: 3rem;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #5ea6b9, #244470);
+
+}
+
+
+.form {
+    width: 350px;
+    height: max-content;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4.721311569213867px 4.721311569213867px 23.606555938720703px 10.622950553894043px rgba(0, 0, 0, 0.12);
+}
+
+.form h2 {
     font-weight: 700;
+    font-family: Lato;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.form-control {
+    margin: 0.5rem;
+    border-radius: 5px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12);
+    padding: 0 0.5rem;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 9px 12px;
+    display: inline-block;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+}
+input::placeholder {
+    color: #b3b3b3;
+    font-weight: 400;
+}
+
+.reg-btn {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 10rem;
+    height: 2.5rem;
+    background-image: linear-gradient(to right, #458293, #244470);
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+.reg-btn:hover {
+    background-image: linear-gradient(to right, #458293, #0f2a52);
+}
+
+.regbtm-txt {
+    color: #b3b3b3;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
 }
